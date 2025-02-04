@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		// linear search
 		// run time complexity: O(n)
-//test
+//interpolationSearch
 
 		int[] array = { 3, 6, 1, 5, 2, 9, 7, 4, 8, 0 };
 		int value = 4;
