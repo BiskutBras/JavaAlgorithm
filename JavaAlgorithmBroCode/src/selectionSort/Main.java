@@ -8,14 +8,23 @@ public class Main {
 		int[] arr = { 2, 3, 4, 7, 6, 5, 9, 1, 8 };
 
 		selectionSort(arr);
-
-		for (int i : arr) {
-			System.out.print(i + ", ");
-		}
+		print(arr);
 
 	}
 
-	public static void selectionSort(int[] arr) {
+	private static void print(int[] arr) {
+
+		String str = "";
+
+		for (int i : arr) {
+			str += i + ", ";
+		}
+		str = str.substring(0, str.length() - 2);
+		System.out.println("[" + str + "]");
+
+	}
+
+	private static void selectionSort(int[] arr) {
 
 		for (int i = 0; i < arr.length - 1; i++) {
 
