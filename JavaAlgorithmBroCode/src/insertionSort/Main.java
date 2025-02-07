@@ -12,7 +12,7 @@ public class Main {
 
 	}
 
-	private static void print(int[] arr) {
+	static void print(int[] arr) {
 		if (arr.length == 0) {
 			System.out.println("[]");
 		} else {
@@ -27,11 +27,10 @@ public class Main {
 
 	}
 
-	private static void insertionSort(int[] arr) {
+	public static void insertionSort(int[] arr) {
 
 		for (int i = 1; i < arr.length; i++) {
 
-			
 			int j = i - 1;
 			int temp = arr[i];
 

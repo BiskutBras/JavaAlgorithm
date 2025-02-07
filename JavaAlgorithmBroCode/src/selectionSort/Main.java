@@ -12,7 +12,7 @@ public class Main {
 
 	}
 
-	private static void print(int[] arr) {
+	static void print(int[] arr) {
 
 		String str = "";
 
@@ -24,7 +24,7 @@ public class Main {
 
 	}
 
-	private static void selectionSort(int[] arr) {
+	public static void selectionSort(int[] arr) {
 
 		for (int i = 0; i < arr.length - 1; i++) {
 
