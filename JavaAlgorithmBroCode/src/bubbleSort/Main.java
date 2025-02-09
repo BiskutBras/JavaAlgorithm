@@ -15,7 +15,7 @@ public class Main {
 	}
 
 	static void print(int[] arr) {
-		
+
 		String string = new String();
 		for (int i : arr) {
 
