@@ -27,7 +27,7 @@ public class Main {
 
 	}
 
-	public static void insertionSort(int[] arr) {
+	static void insertionSort(int[] arr) {
 
 		for (int i = 1; i < arr.length; i++) {
 
