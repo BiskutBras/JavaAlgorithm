@@ -30,8 +30,8 @@ public class Recursion {
 
 	private static int factorial(int num) {
 
-		if (num == 2) {
-			return 2; // base case
+		if (num == 0) {
+			return 1; // base case
 		}
 
 		return num * factorial(num - 1); // recursive case
